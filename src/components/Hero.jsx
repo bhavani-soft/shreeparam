@@ -6,7 +6,7 @@ export default function Hero({ setCurrentView }) {
 
   const slides = [
     {
-      image: 'https://swamymarmo.com/wp-content/uploads/2025/06/6V4A6844.webp',
+      image: '/slide1.webp',
       tagline: 'Stylish Surfaces',
       title: (
         <>
@@ -16,7 +16,7 @@ export default function Hero({ setCurrentView }) {
       description: 'Elevate your business with expert advice! Join us for a tailored consultation session. Limited spots available. RSVP now to secure yours!'
     },
     {
-      image: 'https://swamymarmo.com/wp-content/uploads/2025/06/6V4A6892.webp',
+      image: '/slide2.webp',
       tagline: 'Natural Surfaces',
       title: (
         <>
@@ -26,7 +26,7 @@ export default function Hero({ setCurrentView }) {
       description: 'Elevate your business with expert advice! Join us for a tailored consultation session. Limited spots available. RSVP now to secure yours!'
     },
     {
-      image: 'https://swamymarmo.com/wp-content/uploads/2025/06/6V4A6866.webp',
+      image: '/slide3.webp',
       tagline: 'Elegant Surfaces',
       title: (
         <>
