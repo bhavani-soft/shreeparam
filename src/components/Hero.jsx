@@ -86,15 +86,15 @@ export default function Hero({ setCurrentView }) {
               {slides[activeSlide].tagline}
             </span>
             {/* Main Title */}
-            <h1 style={{ fontSize: 'clamp(2.4rem, 6.5vw, 4.8rem)', fontFamily: 'Cormorant Garamond, serif', color: '#ffffff', lineHeight: 1.15, marginBottom: '24px', fontWeight: 300 }}>
+            <h1 className="hero-title" style={{ fontFamily: 'Cormorant Garamond, serif', color: '#ffffff', fontWeight: 300 }}>
               {slides[activeSlide].title}
             </h1>
             {/* Description */}
-            <p style={{ fontSize: 'clamp(0.95rem, 2vw, 1.15rem)', color: 'rgba(255, 255, 255, 0.85)', maxWidth: '600px', margin: '0 0 40px', lineHeight: 1.7, fontWeight: 300, fontFamily: 'Jost, sans-serif' }}>
+            <p className="hero-desc" style={{ color: 'rgba(255, 255, 255, 0.85)', maxWidth: '600px', fontWeight: 300, fontFamily: 'Jost, sans-serif' }}>
               {slides[activeSlide].description}
             </p>
             {/* Actions */}
-            <div style={{ display: 'flex', gap: '16px', justifyContent: 'flex-start' }}>
+            <div className="hero-btn-container" style={{ justifyContent: 'flex-start' }}>
               <button onClick={() => setCurrentView('marbles')} className="btn-gold" style={{ background: '#ffffff', color: '#0a0a0a', border: '2px solid #ffffff', fontFamily: 'Jost, sans-serif' }}>
                 Explore Collection
               </button>
